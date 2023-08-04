@@ -1,8 +1,9 @@
-#include <main.h>
+#include "main.h"
 
 int main (void)
 {
 	char ch []= "_putchar";
 	_putchar(ch[0]);
-	printf("\n");
+	_putchar('\n');
+	return(0);
 }
